@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {   
-        stage('Sprint1 branch') { 
+        stage('Hotfix branch') { 
             steps { 
                sh 'echo "This is master branch"' 
             }
